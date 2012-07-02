@@ -28,7 +28,7 @@
 	<![endif]-->
 	
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+	<script>window.jQuery || document.write('<script src="media/js/__jquery-1.7.2.min.js"><\/script>')</script>
 
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
 

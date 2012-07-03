@@ -101,25 +101,20 @@
 
 		</article>
 
-
 	</div>
 
 
-
-
+	<nav id="sublinks">
+		<ul>
+			<li><a id="toggle_conteudo" href="">Ocultar informações ↑</a></li>
+			<li><a href="">Familias</a></li>
+			<li><a href="">Periodos</a></li>
+			<li><a href="">Pesos</a></li>
+		</ul>
+	</nav>
 
 </section>
 
-<nav id="sublinks">
-
-	<ul>
-
-		<li><a href="">Mostrar Familia</a></li>
-		<li><a href="">Mostrar Periodos</a></li>
-		<li><a href="">Mostrar Peso</a></li>
-	</ul>
-
-</nav>
 
 <section id="tabela">
 
@@ -201,6 +196,56 @@
 			<span class="ato">20</span>
 		</a>
 
+		<a href="" class="elemento m_transicao" id="escandio" title="Escândio">
+			<span class="simb">Sc</span>
+			<span class="ato">21</span>
+		</a>
+
+		<a href="" class="elemento m_transicao" id="titanio" title="Titânio">
+			<span class="simb">Ti</span>
+			<span class="ato">22</span>
+		</a>
+
+		<a href="" class="elemento m_transicao" id="vanadio" title="Vanádio">
+			<span class="simb">V</span>
+			<span class="ato">23</span>
+		</a>
+
+		<a href="" class="elemento m_transicao" id="cromo" title="Crômo">
+			<span class="simb">Cr</span>
+			<span class="ato">24</span>
+		</a>
+
+		<a href="" class="elemento m_transicao" id="manganes" title="Manganês">
+			<span class="simb">Mn</span>
+			<span class="ato">25</span>
+		</a>
+
+		<a href="" class="elemento m_transicao" id="ferro" title="Ferro">
+			<span class="simb">Fe</span>
+			<span class="ato">26</span>
+		</a>
+
+		<a href="" class="elemento m_transicao" id="cobalto" title="Cobalto">
+			<span class="simb">Co</span>
+			<span class="ato">27</span>
+		</a>
+
+		<a href="" class="elemento m_transicao" id="niquel" title="Níquel">
+			<span class="simb">Ni</span>
+			<span class="ato">28</span>
+		</a>
+
+		<a href="" class="elemento m_transicao" id="cobre" title="Cobre">
+			<span class="simb">Cu</span>
+			<span class="ato">29</span>
+		</a>
+
+		<a href="" class="elemento m_transicao" id="zinco" title="Zinco">
+			<span class="simb">Zn</span>
+			<span class="ato">30</span>
+		</a>
+
 	</div>
 
 	<div class="line" id="periodo_05">
@@ -213,6 +258,57 @@
 			<span class="simb">Sr</span>
 			<span class="ato">38</span>
 		</a>
+
+		<a href="" class="elemento m_transicao" id="itrio" title="Ítrio">
+			<span class="simb">Y</span>
+			<span class="ato">39</span>
+		</a>
+
+		<a href="" class="elemento m_transicao" id="zirconico" title="Zircônico">
+			<span class="simb">Zr</span>
+			<span class="ato">40</span>
+		</a>
+
+		<a href="" class="elemento m_transicao" id="niobio" title="Nióbio">
+			<span class="simb">Nb</span>
+			<span class="ato">41</span>
+		</a>
+
+		<a href="" class="elemento m_transicao" id="molibdemio" title="Molibdêmio">
+			<span class="simb">Mo</span>
+			<span class="ato">42</span>
+		</a>
+
+		<a href="" class="elemento m_transicao" id="tecnicio" title="Tecnécio">
+			<span class="simb">Tc</span>
+			<span class="ato">43</span>
+		</a>
+
+		<a href="" class="elemento m_transicao" id="rutenio" title="Rutênio">
+			<span class="simb">Ru</span>
+			<span class="ato">44</span>
+		</a>
+
+		<a href="" class="elemento m_transicao" id="rodio" title="Ródio">
+			<span class="simb">Rh</span>
+			<span class="ato">45</span>
+		</a>
+
+		<a href="" class="elemento m_transicao" id="paladio" title="Paládio">
+			<span class="simb">Pd</span>
+			<span class="ato">46</span>
+		</a>
+
+		<a href="" class="elemento m_transicao" id="prata" title="Prata">
+			<span class="simb">Ag</span>
+			<span class="ato">47</span>
+		</a>
+
+		<a href="" class="elemento m_transicao" id="cadmio" title="Cádmio">
+			<span class="simb">Cd</span>
+			<span class="ato">48</span>
+		</a>
+
 
 	</div>
 
@@ -227,6 +323,10 @@
 			<span class="ato">56</span>
 		</a>
 
+		<a href="" class="elemento lantanideos" id="lantanideos" title="Lantanídeos">
+			<span class="simb_pequeno">57-71</span>
+		</a>
+
 	</div>
 
 	<div class="line" id="periodo_07">
@@ -238,6 +338,10 @@
 		<a href="" class="elemento m_alcalino_terrosos" id="radio" title="Rádio">
 			<span class="simb">Ra</span>
 			<span class="ato">88</span>
+		</a>
+
+		<a href="" class="elemento actinideos" id="actinideos" title="Actinídeos">
+			<span class="simb_pequeno">89-103</span>
 		</a>
 
 	</div>

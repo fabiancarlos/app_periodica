@@ -264,8 +264,7 @@ textarea:focus, input:focus, select:focus, a:focus, img:focus { outline: none;  
 
 
 /* to opacity */
-.transparent { zoom: 1; filter: alpha(opacity=30); opacity: 0.3; }
-
+.transparent { zoom: 1; filter: alpha(opacity=20); opacity: 0.2; }
 
 /* =============================================================================
    HEADER
@@ -284,7 +283,7 @@ header{ position: fixed; top: 0px; left: 80px; }
    CONTEUDO
    ========================================================================== */
 
-section#conteudo{ width: 1100px; height: auto; position: fixed; z-index: 999; background: #f8f8f8; border: 1px solid #bbb;  }
+section#conteudo{ width: 1100px; height: 190px; position: absolute; top: 0; padding-bottom: 30px; z-index: 999; background: #f4f4f4; border: 1px solid #bbb;  }
 
 section#conteudo #elemento_info div.elemento{ width: 100px; height: 110px; text-align: center; border: 6px solid #333; padding-top: 20px; margin: 15px 10px 10px 20px; position: relative; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -khtml-border-radius: 10px; }
 
@@ -305,7 +304,7 @@ section#conteudo #elemento_info article.informacoes_gerais table{ width: 100%; }
 section#conteudo #elemento_info article.informacoes_gerais table tr{ display: block; height: 20px; }
 
 section#conteudo #elemento_info article.informacoes_gerais table thead{ float: left; }
-section#conteudo #elemento_info article.informacoes_gerais table thead tr th{ width: 100%; color: #666; padding: 5px 0px; }
+section#conteudo #elemento_info article.informacoes_gerais table thead tr th{ width: 100%; color: #666; padding: 6px 0px; }
 
 section#conteudo #elemento_info article.informacoes_gerais table tbody{ float: right;  }
 section#conteudo #elemento_info article.informacoes_gerais table tbody tr td{  padding: 5px 5px 0px 0px; }
@@ -318,28 +317,28 @@ section#conteudo #elemento_info article.propriedades_atomicas table{ width: 100%
 section#conteudo #elemento_info article.propriedades_atomicas table tr{ display: block; height: 20px; }
 
 section#conteudo #elemento_info article.propriedades_atomicas table thead{ float: left; }
-section#conteudo #elemento_info article.propriedades_atomicas table thead tr th{ width: 100%; color: #666; padding: 5px 0px; }
+section#conteudo #elemento_info article.propriedades_atomicas table thead tr th{ width: 100%; color: #666; padding: 6px 0px; }
 
 section#conteudo #elemento_info article.propriedades_atomicas table tbody{ float: right;  }
 section#conteudo #elemento_info article.propriedades_atomicas table tbody tr td{  padding: 5px 5px 0px 0px; }
 
 
-
-/* =============================================================================
+/* 
    SUBLINKS
    ========================================================================== */
-nav#sublinks{ border: 2px solid #bbb; padding-top: 210px;  }
+nav#sublinks{ border: 2px solid #bbb; position: absolute; bottom: 0; z-index: 999; }
 
-nav#sublinks ul{ display: block; height: 20px; }
+nav#sublinks ul{ display: block; }
 
-nav#sublinks ul li{ margin-right: 20px; float: left; }
+nav#sublinks ul li{ font-size: 14px; padding: 0px 20px; line-height: 30px; background: #ccc; float: left; }
 
+nav#sublinks ul li:hover{ background: #ddd; }
 
 /* =============================================================================
    TABELA
    ========================================================================== */
 
-section#tabela{ width: 100%; height: 700px; position: relative; }
+section#tabela{ width: 100%; height: 700px; position: absolute; padding-top: 250px; }
 
 section#tabela .line{ width: 100%; height: 64px; float: left; }
 
@@ -348,6 +347,8 @@ section#tabela .line h2{ width: 120px; float: left; padding: 20px 20px 0px 0px; 
 section#tabela .line .elemento{ display: block; width: 60px; height: 45px; text-align: center; margin: 3px; padding-top: 10px; border: 3px solid #444; position: relative; border-radius: 6px; -webkit-border-radius: 6px; -moz-border-radius: 6px; }
 
 section#tabela .line .elemento .simb{ font-size: 35px; color: #333;  }
+
+section#tabela .line .elemento .simb_pequeno{ font-size: 15px; color: #333; }
 
 section#tabela .line .elemento .ato{ font-size: 16px; color: #fff; position: absolute; top: 0px; right: 4px; }
 
@@ -359,7 +360,7 @@ section#tabela .line .elemento .m_ato{ display: none; }
    TIPOS E ESTADOS
    ========================================================================== */
 
-aside#tipos_estados{ width: 600px; height: 200px; position: fixed; top: 240px; left: 340px; z-index: 999; background: #fff; border-radius: 6px; -webkit-border-radius: 6px; -moz-border-radius: 6px; }
+aside#tipos_estados{ width: 600px; height: 200px; position: absolute; top: 240px; left: 140px; z-index: 999; background: #fff; border-radius: 6px; -webkit-border-radius: 6px; -moz-border-radius: 6px; }
 
 aside#tipos_estados ul.coluna_01{ width: 180px; display: block; float: left; }
 
@@ -402,54 +403,35 @@ aside#tipos_estados ul li a:hover{ color: #333; }
    ELEMENTOS
    ========================================================================== */
 
-/* line 1 */
+/* periodo 1 */
 #hidrogenio{ float: left; }
 
 #helio{ float: right; }
 
 
-/* line 2 */
-#litio{ float: left; }
-
-#berilio{ float: left; }
+/* periodo 2 */
+#litio, #berilio{ float: left; }
 
 
-/* line 3 */
-#sodio{ float: left; }
-
-#magnesio{ float: left; }
+/* periodo 3 */
+#sodio, #magnesio{ float: left; }
 
 
-/* line 4 */
-#potassio{ float: left; }
-
-#calcio{ float: left; }
+/* periodo 4 */
+#potassio, #calcio, #escandio, #titanio, #vanadio, #cromo, #manganes, #ferro, #cobalto, #niquel, #cobre, #zinco{ float: left; }
 
 
-/* line 5 */
-#rubidio{ float: left; }
+/* periodo 5 */
+#rubidio, #estroncio, #itrio, #zirconico, #niobio, #molibdemio, #tecnicio, #rutenio, #rodio, #paladio, #prata, #cadmio{ float: left; }
 
-#estroncio{ float: left;  }
+/* periodo 6 */
+#cesio, #bario, #lantanideos{ float: left; }
 
+/* periodo 7 */
 
+#francio, #radio, #actinideos{ float: left; }
 
-/* line 6 */
-
-#cesio{ float: left; }
-
-#bario{ float: left; }
-
-
-
-/* line 7 */
-
-#francio{ float: left; }
-
-#radio{ float: left; }
-
-
-
-/* line latanideos */
+/* periodo latanideos */
 
 
 #lantanio{ float: left; }
@@ -457,7 +439,7 @@ aside#tipos_estados ul li a:hover{ color: #333; }
 #cerio{ float: left; }
 
 
-/* line actinideos */
+/* periodo actinideos */
 
 #actinio{ float: left; }
 

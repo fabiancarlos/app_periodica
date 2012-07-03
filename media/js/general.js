@@ -55,29 +55,36 @@ $('#tipos_estados li a').each(function(){
 
 			$(this).not('.'+class_element).removeClass('transparent');
 		});
-
 	});
 });
 
+// hover nos tipos dos elementos, e fecha o bloco 'conteudo'
+// $('section#conteudo, section#tabela').hover(function(){
 
-// click para pull nos tipos dos elementos
-var class_element;
+// $('section#conteudo, section#tabela').animate({'top': '-190px'});
+// });
 
-$('#tipos_estados li a').toggle(function(event){
+
+// clica elemento, e abre o bloco de 'conteudo'
+$('section#tabela .line .elemento, nav#sublinks ul li a').click(function(event){
 	event.preventDefault();
 
-	// $(this).css('border', '3px solid red');
+	$('#toggle_conteudo').text('Ocultar informações ↑');
+	$('section#conteudo, section#tabela').animate({'top': '0px'});
+});
 
-	class_element = $(this).attr('class');
+// click para fechar bloco 'conteudo'
+$('#toggle_conteudo').toggle(function(event){
+	event.preventDefault();
 
-
+	$(this).text('Mostrar mais informações ↓');
+	$('section#conteudo, section#tabela').animate({'top': '-190px'});
 }, function(event){
 	event.preventDefault();
 
-	// $(this).css('border', '3px solid #333');
-
+	$(this).text('Ocultar informações ↑');
+	$('section#conteudo, section#tabela').animate({'top': '0px'});
 });
-
 
 
 

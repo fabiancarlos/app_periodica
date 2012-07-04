@@ -14,7 +14,6 @@ abstract class Controller_Application extends Controller_Template{
 		View::set_global('author', 'Fabian Carlos');
 		View::set_global('reply_to', 'fabian.pow@gmail.com');
 		View::set_global('keywords', 'tabela periódica, elementos quimicos');
-		View::set_global('shortcut_icon', $icon);
 
 		$this->template->content = '';
 		$this->template->styles = array(

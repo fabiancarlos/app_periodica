@@ -1,6 +1,5 @@
 <header> 
 	<h3>APP Periódica</h3>
-	<h5>beta</h5>
 
 </header>
 
@@ -109,7 +108,7 @@
 			<li><a id="toggle_conteudo" href="">Ocultar informações ↑</a></li>
 			<li><a href="">Familias</a></li>
 			<li><a href="">Periodos</a></li>
-			<li><a href="">Pesos</a></li>
+			<li><a href="">Nº Atômico</a></li>
 		</ul>
 	</nav>
 
